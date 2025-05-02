@@ -30,7 +30,6 @@
       <a name="width" val="32"/>
     </tool>
   </lib>
-  <lib desc="file#bancs_registres_lib.circ" name="6"/>
   <main name="banc_reg"/>
   <options>
     <a name="gateUndefined" val="ignore"/>
@@ -555,6 +554,9 @@
     <comp lib="1" loc="(510,830)" name="XOR Gate">
       <a name="facing" val="south"/>
     </comp>
+    <comp lib="1" loc="(830,600)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(860,290)" name="AND Gate">
       <a name="width" val="32"/>
     </comp>
@@ -678,7 +680,8 @@
     <wire from="(550,600)" to="(550,690)"/>
     <wire from="(830,470)" to="(830,490)"/>
     <wire from="(830,490)" to="(890,490)"/>
-    <wire from="(830,550)" to="(830,610)"/>
+    <wire from="(830,550)" to="(830,570)"/>
+    <wire from="(830,600)" to="(830,610)"/>
     <wire from="(830,610)" to="(900,610)"/>
     <wire from="(840,670)" to="(880,670)"/>
     <wire from="(850,450)" to="(1070,450)"/>
